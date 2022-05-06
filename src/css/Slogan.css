@@ -1,0 +1,8 @@
+.slogan-card {
+  max-width: 352px;
+  height: 60px;
+  padding: 12px;
+  background: var(--light-grey);
+  border-radius: 4px;
+  cursor:pointer;
+}

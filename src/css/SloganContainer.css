@@ -1,0 +1,90 @@
+.slogan-container {
+  border-radius: 8px;
+  margin-top: -192px !important;
+  margin-bottom: 80px !important;
+  padding: 4rem 12rem;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+}
+.slogan-container h1 {
+  margin-bottom: 1rem;
+}
+
+.slogan-container > h2 {
+  margin-bottom: 3rem;
+}
+
+.slogan-container p {
+  margin-bottom: 0.5rem;
+}
+
+.slogan-container button {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.slogan-container .divider {
+  margin-bottom: 2.5rem;
+}
+
+.slogans-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogans-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.slogan-pagination{
+  margin-left: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.slogan-pagination-nums{
+  min-width: 400px;
+}
+
+
+.slogan-pagination a,
+.slogan-pagination div {
+  color: var(--primary);
+  border-radius: 50%;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.slogan-pagination .active {
+  background-color: var(--primary);
+  color: var(--offwhite);
+}
+.slogan-pagination a:hover:not(.active) {
+  background-color: var(--primary);
+  color: var(--offwhite);
+}
+
+@media (max-width: 570px) {
+  .slogan-pagination{
+    display: flex;
+    justify-content: space-between;
+  }
+  .slogan-pagination-nums{
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 934px) {
+  .slogan-container {
+    padding: 4rem 3rem;
+  }
+  .slogans-grid {
+    grid-template-columns: 1fr;
+    margin: 0 auto 3rem;
+  }
+}

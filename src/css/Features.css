@@ -1,0 +1,25 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 6rem;
+}
+
+.features div {
+  max-width: 352px;
+  text-align: center;
+}
+
+.features h4 {
+  margin: 2rem 0 0.5rem;
+}
+
+.features p {
+  color: var(--dark-grey)
+}
+
+@media (max-width: 536px) {
+  .features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

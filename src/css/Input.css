@@ -1,0 +1,21 @@
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 352px;
+  height: 48px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.input-container input {
+  width: 85%;
+  border: none;
+  outline: none;
+}
+
+@media (max-width:410px){
+  .input-container{
+    width: 150px;
+  }
+  }
