@@ -1,6 +1,6 @@
 import React from "react";
 import "../../css/Footer.css";
-import Logo from "../../assets/navbar/navbar-logo.svg";
+import Logo from "../../assets/navbar/navbar_logo.svg";
 import MadeIn from "../../assets/footer/made-in.png";
 
 function Footer() {

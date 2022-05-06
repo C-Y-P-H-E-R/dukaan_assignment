@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button.jsx";
-import Logo from "../../assets/navbar/navbar-logo.svg";
+import Logo from "../../assets/navbar/navbar_logo.svg";
 import "../../css/Navbar.css";
 
 function Navbar() {
